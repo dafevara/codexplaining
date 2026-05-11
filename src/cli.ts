@@ -6,8 +6,8 @@ import { run } from "./core/pipeline.js";
 const program = new Command();
 
 program
-  .name("heg")
-  .description("HTML Explainer Generator — turn a GitHub PR into a self-contained HTML explainer.")
+  .name("codexplaining")
+  .description("Turn a GitHub PR into a self-contained HTML explainer.")
   .version("0.1.0")
   .requiredOption("-i, --input <id-or-url>", "PR id (owner/repo#N) or URL")
   .requiredOption("-o, --output <dir>", "output directory")
